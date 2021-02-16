@@ -20,7 +20,8 @@ A new feature is being developed to enable an automatic check of the different t
 The code for the feature is at a basic Proof Of Concept stage but we need to make sure it is correct before being implemented.
 
 ## Your Task
-Your task is to analyse the requirement and write a series of tests and provide data for them to ensure the functions perform up to the standard required, and then to report any failures. 
+The system requires some test cases, initially Unit test cases that are written using the Jest framework.
+Your task is to analyse the requirement and write a series of tests and provide data for them to ensure the functions perform up to the standard required with confidence, run the tests, and then to report any failures (there is at least 1 defect in the system). 
 Please provide these tests by means of an online (ideally a github) repo, with code and issues. 
 
 ## Some Resources
@@ -28,6 +29,10 @@ Please provide these tests by means of an online (ideally a github) repo, with c
 **index.js** gives samples of usage
 **productList.json** is an example of data you might pass in
 **main.test.js** is a sample Jest test against the functions
+
+*YOU CAN IGNORE*
+**package-lock.json**
+**package.json**
 
 ## What you will need
 To get started, you'll need to have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)., [node](https://nodejs.org/en/download/), and [npm](https://www.npmjs.com/get-npm) installed. Pull the repository with `git clone [REPO URL]`, run `npm install` in the folder that this creates, and you should be able to run your tests with `npm test`.
